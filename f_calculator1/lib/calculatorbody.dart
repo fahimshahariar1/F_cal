@@ -108,6 +108,14 @@ class _CalculatorState extends State<Calculator> {
           ),
           Row(
             children: [
+              button(text: "1"),
+              button(text: "2"),
+              button(text: "3"),
+              button(text: "+", tcolor: sideopColor),
+            ],
+          ),
+          Row(
+            children: [
               button(text: "", bColor: Colors.transparent),
               button(text: "0"),
               button(text: "."),
